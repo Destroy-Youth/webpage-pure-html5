@@ -15,7 +15,7 @@ body {
 
 .background{
     background: rgb(20,13,79);
-background: linear-gradient(90deg, rgba(20,13,79,1) 25%, rgba(41,127,236,1) 100%);
+    background: linear-gradient(90deg, rgba(20,13,79,1) 25%, rgba(41,127,236,1) 100%);
 }
 
 .header {
@@ -88,6 +88,33 @@ background: linear-gradient(90deg, rgba(20,13,79,1) 25%, rgba(41,127,236,1) 100%
     color: white;
     margin: 0.2rem 0rem;
 }
+.searcher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searcher__title {
+    color: white;
+    font-size: 25px;
+}
+
+.input{
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    height: 2.5rem;
+    padding: 0 25px;
+    width: 70%;
+    background-color: rgba(26, 143, 227,0.3);
+    outline: none;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 </style>
 
 <body class="background">
@@ -108,5 +135,9 @@ background: linear-gradient(90deg, rgba(20,13,79,1) 25%, rgba(41,127,236,1) 100%
             </ul>
         </div>
     </header>
+    <section class="searcher">
+        <h2 class="searcher__title">¿Quieres escuchar algo?</h2>
+        <input class="input" type="text" placeholder="Buscar..."/>
+    </section>
 </body>
 </html>
