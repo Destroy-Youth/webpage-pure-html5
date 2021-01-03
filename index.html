@@ -3,117 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Mulish&display=swap" rel="stylesheet">
     <title>Fav music list</title>
 </head>
 <style>
-body {
-  margin: 0;
-  font-family: 'Mulish', sans-serif;
-}
-
-.background{
-    background: rgb(20,13,79);
-    background: linear-gradient(90deg, rgba(20,13,79,1) 25%, rgba(41,127,236,1) 100%);
-}
-
-.header {
-    display: flex;
-    width: 100%;
-    height: 4rem;
-    justify-content: space-between;
-}
-
-.header__title-container {
-    display: flex;
-    color: white;
-    font-family: 'Hanalei Fill', cursive;
-    font-size: 2rem;
-}
-
-.header__title-container p{
-    margin-top: 0.5rem;
-}
-
-.header__img{
-    filter: invert(100%);
-    height: 3.5rem;
-    margin-top: 0.2rem;
-    margin-left: 0.3rem;
-}
-
-.header__menu{
-    margin: 0.2rem 3rem;
-}
-
-
-.header__menu img{
-    filter: invert(100%);
-    width: 2rem;
-    height: 2rem;
-    margin: 0.6rem 0.2rem;
-}
-
-
-.header__menu ul{
-    display: none;
-    list-style: none;
-    padding: 0px;
-    position:  absolute;
-    width: 100;
-    text-align: right;
-    margin: 0 0 0 -14px;
-}
-
-.header__menu:hover ul, ul:hover{
- display: block;
-}
-
-.header__menu li{
-    margin: 6px 0px;
-}
-
-.header__menu li a{
-    color:  white;
-    text-decoration: none;
-}
-.header__menu li a:hover{
-    text-decoration: underline;
-}
-
-.header__menu__profile {
-    display: flex;
-    align-items: center;
-    color: white;
-    margin: 0.2rem 0rem;
-}
-.searcher{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.searcher__title {
-    color: white;
-    font-size: 25px;
-}
-
-.input{
-    border: 2px solid white;
-    border-radius: 50px;
-    color: white;
-    font-family: 'Mulish', sans-serif;
-    height: 2.5rem;
-    padding: 0 25px;
-    width: 70%;
-    background-color: rgba(26, 143, 227,0.3);
-    outline: none;
-}
-
-.input::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-}
 
 </style>
 
@@ -138,6 +33,13 @@ body {
     <section class="searcher">
         <h2 class="searcher__title">¿Quieres escuchar algo?</h2>
         <input class="input" type="text" placeholder="Buscar..."/>
+    </section>
+    <section class="carousel">
+        <div class="carousel__container">
+            <div class="carousel__item">
+
+            </div>
+        </div>
     </section>
 </body>
 </html>
