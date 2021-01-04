@@ -160,8 +160,7 @@ ul:hover {
     rgba(0, 0, 0, 0.9) 0%,
     rgba(0, 0, 0, 0) 100%
   );
-  font-size: 0.3rem;
-  opacity: 1;
+  opacity: 0;
   transition: 450ms opacity;
   padding: 0.2rem;
   position: absolute;
@@ -169,4 +168,46 @@ ul:hover {
   left: 0;
   right: 0;
   bottom: 0;
+
+  /* grid container */
+  display: grid;
+  grid-template-rows: auto 15% 10% 10%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.carousel-item__details:hover {
+  opacity: 1;
+  transition: 450ms opacity;
+}
+
+.carousel-item__details__btn-play {
+  height: auto;
+  width: 1.8rem;
+
+  grid-column: 1 /2;
+  grid-row: 2/3;
+}
+
+.carousel-item__details__btn-fav {
+  height: auto;
+  width: 1.8rem;
+
+  grid-column: 2 /3;
+  grid-row: 2/3;
+}
+
+.carousel-item__details__title {
+  color: white;
+  font-size: medium;
+  grid-column: 1 /5;
+  grid-row: 3/4;
+  margin: 0 5px;
+}
+
+.carousel-item__details__subtitle {
+  color: white;
+  font-size: small;
+  grid-column: 1 /5;
+  grid-row: 4/5;
+  margin: 0 5px;
 }
