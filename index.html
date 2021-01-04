@@ -1,50 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="base.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Mulish&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Mulish&display=swap"
+      rel="stylesheet"
+    />
     <title>Fav music list</title>
-</head>
-<style>
+  </head>
+  <style></style>
 
-</style>
-
-<body class="background">
+  <body class="background">
     <header class="background header">
-        <div class="header__title-container">
-            <img class="header__img" alt="Platzi logo" src="assets/music-list.png"/>
-            <p>Fav music list</p>
-            <img class="header__img" alt="Platzi logo" src="assets/music-love.png"/>
+      <div class="header__title-container">
+        <img
+          class="header__img"
+          alt="Platzi logo"
+          src="assets/music-list.png"
+        />
+        <p>Fav music list</p>
+        <img
+          class="header__img"
+          alt="Platzi logo"
+          src="assets/music-love.png"
+        />
+      </div>
+      <div class="header__menu">
+        <div class="header__menu__profile">
+          <img src="./assets/profile.png" alt="Imagen de perfil" />
+          <p>Perfil</p>
         </div>
-        <div class="header__menu">
-            <div class="header__menu__profile">
-                <img src="./assets/profile.png" alt="Imagen de perfil"/>
-                <p>Perfil</p>
-            </div>
-            <ul>
-                <li><a href="/">Cuenta</a></li>
-                <li><a href="/">Cerrar sesion</a></li>
-            </ul>
-        </div>
+        <ul>
+          <li><a href="/">Cuenta</a></li>
+          <li><a href="/">Cerrar sesion</a></li>
+        </ul>
+      </div>
     </header>
     <section class="searcher">
-        <h2 class="searcher__title">¿Quieres escuchar algo?</h2>
-        <input class="input" type="text" placeholder="Buscar..."/>
+      <h2 class="searcher__title">¿Quieres escuchar algo?</h2>
+      <input class="input" type="text" placeholder="Buscar..." />
     </section>
     <section class="carousel">
-        <div class="carousel__container">
-            <div class="carousel__item">
-            </div>
-            <div class="carousel__item">
-            </div>
-            <div class="carousel__item">
-            </div>
-            <div class="carousel__item">
-            </div>
+      <div class="carousel__container">
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/2796145/pexels-photo-2796145.jpeg?cs=srgb&dl=pexels-vova-krasilnikov-2796145.jpg&fm=jpg"
+          />
+          <div class="carousel-item__details">
+            <img
+              src="https://img.icons8.com/wired/64/000000/play.png"
+              alt="Play"
+            />
+            <img
+              src="https://img.icons8.com/dotty/80/000000/heart-plus.png"
+              alt="Favourite"
+            />
+            <p class="carousel-item__details__title">Titulo descriptivo</p>
+            <p class="carousel-item__details__subtitle">Titulo descriptivo</p>
+          </div>
         </div>
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+      </div>
     </section>
-</body>
+    <footer></footer>
+  </body>
 </html>
