@@ -175,6 +175,17 @@ ul:hover {
   grid-template-columns: repeat(4, 1fr);
 }
 
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  border: 1px none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 25px;
+}
+
 .carousel-item__details:hover {
   opacity: 1;
   transition: 450ms opacity;
