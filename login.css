@@ -119,35 +119,3 @@
   transition: 400ms background-color;
   background-color: #1a8fe3;
 }
-
-.footer {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.footer a {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 0.5rem;
-  font-size: 13px;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
-
-@media only screen and (max-width: 600px) {
-  .login-container {
-    background-color: transparent;
-    border: none;
-    padding: 0px;
-    width: 100%;
-  }
-
-  .footer {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-}
