@@ -14,9 +14,8 @@ body {
 .not-found h1 {
   margin: 2rem 0;
   font-size: 10rem;
-
   color: white;
-  font-family: "Hanalei Fill", cursive;
+  font-family: "Mulish", sans-serif;
 }
 
 .not-found img {
