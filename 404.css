@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+}
+
+.not-found {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found h1 {
+  margin: 2rem 0;
+  font-size: 10rem;
+
+  color: white;
+  font-family: "Hanalei Fill", cursive;
+}
+
+.not-found img {
+  height: 24rem;
+  width: auto;
+  animation: breath 2s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes breath {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
