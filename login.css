@@ -1,0 +1,140 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5rem;
+  min-height: calc(100vh - 200px);
+  color: white;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 6rem 4rem 8rem;
+  min-height: 40rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1.5rem;
+}
+
+.login-container__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container__form label {
+  font-size: 15px;
+  font-family: "Mulish", sans-serif;
+}
+
+.login-container__form__options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.login-container__form__options a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-container__form__options a:hover {
+  text-decoration: underline;
+}
+
+.login-container__social-media {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.login-container__social-media > div {
+  font-size: 15px;
+  margin: 5px 2px;
+  display: flex;
+  align-items: center;
+}
+
+.login-container__social-media > div > img {
+  height: 2rem;
+  width: auto;
+  filter: invert(100%);
+  margin-right: 5px;
+}
+
+.login-container__register {
+  font-size: 15px;
+  text-align: center;
+}
+
+.login-container__register a {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.login-container__register a:hover {
+  text-decoration: underline;
+}
+
+.login-container__form > input {
+  color: white;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  margin: 1rem 0;
+  padding: 5px 20px;
+  height: 2rem;
+  border-bottom: 3px solid white;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  font-family: "Mulish", sans-serif;
+}
+
+.login-container__form button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 3rem;
+  letter-spacing: 1px;
+  margin: 1rem 0 0.5rem;
+  cursor: pointer;
+  transition: 400ms background-color;
+}
+
+.login-container__form button:hover {
+  transition: 400ms background-color;
+  background-color: #1a8fe3;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 2rem;
+  font-size: 13px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
