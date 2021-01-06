@@ -10,12 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Mulish&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title tabindex="0">Document</title>
   </head>
   <body>
     <section class="login background">
       <section class="login-container">
-        <div class="header__title-container">
+        <header tabindex="0" class="header__title-container">
           <img
             class="header__img"
             alt="Platzi logo"
@@ -27,10 +27,17 @@
             alt="Platzi logo"
             src="assets/music-love.png"
           />
-        </div>
+        </header>
         <form class="login-container__form">
-          <input type="text" name="mail" id="input_mail" placeholder="Mail" />
           <input
+            aria-label="mail"
+            type="text"
+            name="mail"
+            id="input_mail"
+            placeholder="Mail"
+          />
+          <input
+            aria-label="password"
             type="password"
             name="password"
             id="input_password"
